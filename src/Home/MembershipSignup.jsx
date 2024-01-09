@@ -1,10 +1,26 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import EmailInput from "./RepetitiveConponents/EmailInput";
+import { signUpAndMailContent } from "./data";
+import { LanguageContext } from "./HomePage";
 
 function MembershipSignup() {
+  const { language } = useContext(LanguageContext);
+  let { title, text } = {};
+  switch (language) {
+    case "french":
+      ({ title, text } = signUpAndMailContent.MembershipSignup.French);
+      break;
+    case "arab":
+      ({ title, text } = signUpAndMailContent.MembershipSignup.Arab);
+      break;
+    default:
+      ({ title, text } = signUpAndMailContent.MembershipSignup.English);
+      break;
+  }
+
   return (
     <div
-      className="absolute text-white w-full h-[600px] top-[80px] space-y-[15px]"
+      className="absolute text-white w-full h-[600px] sm:top-[80px] top-[120px] space-y-[15px]"
       style={{
         fontFamily:
           "Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif",
@@ -12,9 +28,9 @@ function MembershipSignup() {
     >
       <div className="space-y-[20px] lg:text-[1.5rem] text-[1.2rem] font-[400] mt-[40px]">
         <div className="mt-[150px] lg:text-[3rem] text-[2rem] font-[700]">
-          <p>Unlimited movies, TV shows, and more</p>
+          <p>{title}</p>
         </div>
-        <p>Watch anywhere. Cancel anytime.</p>
+        <p>{text}</p>
       </div>
       <EmailInput labelTarget={"MembershipSignup"} />
     </div>
@@ -22,5 +38,3 @@ function MembershipSignup() {
 }
 
 export default MembershipSignup;
-
-// removed z-10

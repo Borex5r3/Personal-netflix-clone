@@ -1,37 +1,26 @@
-import { Button } from "@/components/ui/button";
-import React from "react";
+import { Languages } from './RepetitiveConponents/Languages';
+import React, { useContext } from "react";
 import img from "../assets/netflix-logo-home.png";
 import languages_logo from "../assets/languages-logo.png";
-import icon from "../assets/icon.svg";
+import { LanguageContext } from "./HomePage";
 // removed z-10
 function NavBar() {
+  const { setLanguage } = useContext(LanguageContext);
+  const handleLanguageChange = (e) => {
+    setLanguage(e.target.value);
+  }
   return (
     <>
-      <div className="absolute flex justify-between h-24 w-full items-center bg-transparent">
-        <a href="/">
+      <div className="absolute flex flex-col sm:flex-row justify-start sm:justify-between h-24 w-full items-center space-y-3 sm:space-y-0 bg-transparent">
+        <a href="/" className='sm:mt-0 mt-4'>
           <img
             src={img}
             alt=""
-            className="w-50 h-12 ml-[3vw] lg:ml-[10vw] 2xl:ml-[20vw]"
+            className="h-12 w-50 ml-[3vw] lg:ml-[10vw] 2xl:ml-[20vw]"
           />
         </a>
-        <div className="flex space-x-5 items-center mr-[3vw] lg:mr-[10vw] 2xl:mr-[20vw]">
-          <div className="flex items-center border space-x-2 h-min border-gray-400 text-white rounded-md capitalize py-[6px] px-3">
-            <label htmlFor="languages">
-              <img src={languages_logo} alt="" className="w-5 h-5" />
-            </label>
-            <select
-              name="language"
-              id="languages"
-              className="capitalize bg-inherit"
-            >
-              <option value="english">english</option>
-              <option lang="fr" label="Français" value="fr-MA">
-                Français
-              </option>
-              <option value="العربية">العربية</option>
-            </select>
-          </div>
+        <div className="flex space-x-5 items-center sm:mr-[3vw] lg:mr-[10vw] 2xl:mr-[20vw]">
+          <Languages   languages_logo={languages_logo} handleLanguageChange={handleLanguageChange} labelTarget={'NavBar'} />
           <button className="bg-red-600 rounded-md px-4 py-2 text-sm text-white hover:bg-red-700 font-semibold capitalize mr-[40px]">
             sign in
           </button>

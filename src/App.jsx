@@ -7,7 +7,7 @@ import HomePage from "./Home/HomePage";
 function App() {
 
   return (
-    <div className="text-center">
+    <div className="text-center w-full">
       <HomePage />
     </div>
   );
