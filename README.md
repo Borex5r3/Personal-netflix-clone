@@ -1,13 +1,20 @@
 # Netflix-Clone
 
-- Demo url
+- Demo:
+  
+  ```
+  https://netflix-clone-lemon-eight.vercel.app/
+  ```
+
+## Trust and Safety
+While visiting this site, you may encounter a "Deceptive site ahead" warning. This warning is due to the nature of the project, and you can safely proceed by acknowledging the risk. If you do not feel comfortable, please refrain from entering any personal information or passwords.
 
 ## Installation
 
 1. Clone the repository:
 
 ```
-https://github.com/Borex5r3/netflix-clone.git
+git clone https://github.com/Borex5r3/netflix-clone.git
 ```
 
 2. Navigate to the project directory:
