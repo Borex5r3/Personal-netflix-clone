@@ -4,6 +4,7 @@ import video1 from "/src/assets/video-tv1.m4v";
 import girl_image from "/src/assets/girl-image.jpeg";
 import video2 from "/src/assets/video-tv2.m4v";
 import kids from "/src/assets/kids.png";
+import kids_arab from "/src/assets/kids-arab.png";
 import { Languages } from "lucide-react";
 
 export const faq = {
@@ -146,27 +147,27 @@ export const bodyContent = {
     {
       title: "Enjoy on your TV",
       text: "Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.",
-      image: "/src/assets/tv1.png",
-      video: "/src/assets/video-tv1.m4v",
+      image: tv1,
+      video: video1,
       reverseContent: false,
     },
     {
       title: "Download your shows to watch offline",
       text: "Save your favorites easily and always have something to watch.",
-      image: "/src/assets/girl-image.jpeg",
+      image: girl_image,
       reverseContent: true,
     },
     {
       title: "Watch everywhere",
       text: "Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.",
-      image: "/src/assets/tv2.png",
-      video: "/src/assets/video-tv2.m4v",
+      image: tv2,
+      video: video2,
       reverseContent: false,
     },
     {
       title: "Create profiles for kids",
       text: "Send kids on adventures with their favorite characters in a space made just for them—free with your membership.",
-      image: "/src/assets/kids.png",
+      image: kids,
       reverseContent: true,
     },
   ],
@@ -174,27 +175,27 @@ export const bodyContent = {
     {
       title: "Regardez Netflix sur votre TV",
       text: "Regardez Netflix sur votre Smart TV, PlayStation, Xbox, Chromecast, Apple TV, lecteur Blu-ray et bien plus.",
-      image: "/src/assets/tv1.png",
-      video: "/src/assets/video-tv1.m4v",
+      image: tv1,
+      video: video1,
       reverseContent: false,
     },
     {
       title: "Téléchargez vos séries pour les regarder hors connexion",
       text: "Enregistrez vos programmes préférés et ayez toujours quelque chose à regarder.",
-      image: "/src/assets/girl-image.jpeg",
+      image: girl_image,
       reverseContent: true,
     },
     {
       title: "Où que vous soyez",
       text: "Regardez des films et séries en accès illimité sur votre TV, smartphone, tablette et ordinateur.",
-      image: "/src/assets/tv2.png",
-      video: "/src/assets/video-tv2.m4v",
+      image: tv2,
+      video: video2,
       reverseContent: false,
     },
     {
       title: "Créez des profils pour les enfants",
       text: "Les enfants découvrent de nouvelles aventures et retrouvent leurs personnages préférés dans un espace bien à eux, déjà inclus dans votre abonnement.",
-      image: "/src/assets/kids.png",
+      image: kids,
       reverseContent: true,
     },
   ],
@@ -202,27 +203,27 @@ export const bodyContent = {
     {
       title: "الاستمتاع بالمشاهدة على التلفزيون",
       text: "شاهد على أجهزة التلفزيون الذكية و PlayStation و Xbox و Chromecast و Apple TV ومشغلات Blu-ray والمزيد.",
-      image: "/src/assets/tv1.png",
-      video: "/src/assets/video-tv1.m4v",
+      image: tv1,
+      video: video1,
       reverseContent: true,
     },
     {
       title: "تنزيل عروضك المفضلة لمشاهدتها دون اتصال",
       text: "احفظ أعمالك المفضلة بسهولة لتتمكن دائمًا من مشاهدة ما تريد.",
-      image: "/src/assets/girl-image.jpeg",
+      image: girl_image,
       reverseContent: false,
     },
     {
       title: "المشاهدة في أي مكان",
       text: "شاهد أفلامًا وعروضًا تلفزيونية لا حصر لها على هاتفك أو جهازك اللوحي أو حاسوبك المحمول أو حتى على تلفزيونك.",
-      image: "/src/assets/tv2.png",
-      video: "/src/assets/video-tv2.m4v",
+      image: tv2,
+      video: video2,
       reverseContent: true,
     },
     {
       title: "إنشاء ملفات شخصية للأطفال",
       text: "أطلق العنان لأطفالك لخوض مغامرات مثيرة مع شخصياتهم المحبوبة في تجربة مُخصصة لهم - ومجانًا ضمن عضويتك.",
-      image: "/src/assets/kids-arab.png",
+      image: kids_arab,
       reverseContent: false,
     },
   ],

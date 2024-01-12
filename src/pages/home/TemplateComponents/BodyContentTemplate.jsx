@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const BodyContentTemplate = ({ title, text, image, video, reverseContent }) => {
+const BodyContentTemplate = ({ title, text   , image, video, reverseContent }) => {
 
   return (
     <div
