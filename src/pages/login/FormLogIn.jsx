@@ -25,7 +25,7 @@ const FormLogIn = () => {
   }
   return (
     <>
-      <div className="w-full absolute md:hidden h-[1000px] rounded-md bg-black min-w-[280px]"></div>
+      <div className="w-full absolute md:hidden h-screen rounded-md bg-black min-w-[280px]"></div>
       <div
         className={`absolute md:w-[450px] w-full text-white rounded-md px-4 min-w-[280px] bg-black bg-opacity-75 h-[600px] sm:top-[80px] top-[100px] md:top-[150px] space-y-8 md:pt-[60px] md:px-[68px] md:pb-[40px] ${
           languageIsArab ? "text-end" : "text-start"
@@ -48,7 +48,7 @@ const FormLogIn = () => {
                 languageIsArab ? "flex-row-reverse space-x-reverse" : ""
               }`}
             >
-              <input type="checkbox" id="checkbox" />
+              <input type="checkbox" id="checkbox" checked/>
               <label htmlFor="checkbox" className="">
                 {checkBox[0]}
               </label>

@@ -6,6 +6,8 @@ import { useLanguageContext } from "@/context";
 function Footer() {
   let { title, array, location } = {};
   const { language, setLanguage } = useLanguageContext();
+  let languageIsArab = language === "arab";
+
   switch (language) {
     case "french":
       ({ title, array, location } = footerRedirectons.French);
@@ -19,7 +21,7 @@ function Footer() {
   }
   return (
     <div className="bg-black w-full lg:h-[450px] h-[950px] text-gray-400 text-left text-[0.9rem] pt-[50px] border-[#232323] border-t-8 flex items-center">
-      <div className="w-[60vw] mx-auto h-full space-y-5">
+      <div className={`w-[60vw] mx-auto h-full space-y-5 ${languageIsArab ? 'text-end' : ''}`}>
         <p className="underline font-semibold">{title}</p>
         <div className="grid lg:grid-rows-4 lg:grid-flow-col gap-y-[20px] lg:gap-x-[4px] underline">
           {array.map((item, index) => {
@@ -30,7 +32,7 @@ function Footer() {
           labelTarget={"Footer"}
         />
         <p>{location}</p>
-        <p className="capitalize">
+        <p className="capitalize text-start">
           © made with ❤️ by <span className="text-blue-500">Borex</span>
         </p>
       </div>

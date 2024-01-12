@@ -45,7 +45,7 @@ function EmailInput({ labelTarget }) {
             type="text"
             id={labelTarget}
             onChange={handleInput}
-            className="w-full h-full bg-inherit text-white pl-[1rem]"
+            className="w-full h-full bg-inherit text-white pl-[1rem] outline-none"
           />
         </div>
         <div className="relative flex justify-center w-full md:w-auto min-w-[100px]">

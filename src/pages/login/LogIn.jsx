@@ -7,7 +7,7 @@ import FormLogIn from "./FormLogIn";
 
 const LogIn = () => {
   return (
-    <div className="relative flex md:justify-center bg-black min-h-[1000px] md:h-screen text-[#737373] text-center">
+    <div className="relative flex md:justify-center bg-black min-h-[1000px] h-screen text-[#737373] text-center">
       <BackgroundHomePage />
       <FormLogIn />
       <Footer />

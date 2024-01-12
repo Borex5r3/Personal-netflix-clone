@@ -290,7 +290,7 @@ export const footerRedirectons = {
       "بنود الاستخدام",
       "اتصل بنا",
     ],
-    location: "Netflix المغرب",
+    location: "نتفلكس المغرب",
   },
 };
 
