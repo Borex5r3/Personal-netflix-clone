@@ -2,11 +2,34 @@
 
 - Demo url
 
+## Installation
+
+1. Clone the repository:
+
+```
+git@github.com:Borex5r3/netflix-clone.git
+```
+
+2. Navigate to the project directory:
+```
+cd netflix-clone
+```
+3. Install the dependencies:
+```
+npm install
+```
+4. Run the development server:
+
+```
+npm run dev
+```
+
+After running the command, check your terminal for the localhost address and port information. Open your web browser and navigate to the provided address.
 ## Motivation
 
 The motivation behind this project was to enhance my front-end development skills, particularly in the context of building responsive and visually appealing user interfaces. Cloning the Netflix landing page provided an excellent opportunity to work with modern web technologies like React, HTML, and Tailwind CSS.
 
-## Why did you build this project?
+## Why did I build this project?
 
 I built this project as a hands-on exercise to apply and reinforce my understanding of front-end development concepts. By replicating the Netflix landing page, I aimed to challenge myself in creating a complex and dynamic UI while utilizing popular frameworks and libraries such as React and Tailwind CSS.
 
@@ -14,7 +37,7 @@ I built this project as a hands-on exercise to apply and reinforce my understand
 
 While this project is essentially a clone and doesn't address a specific problem, it serves as a valuable learning experience for both myself and others interested in front-end development. It provides a practical example of building a responsive and interactive user interface, showcasing the implementation of various design elements found on a real-world website.
 
-## What did you learn?
+## What did I learn?
 
 Through the development of this project, I gained hands-on experience with:
 
@@ -23,7 +46,7 @@ Through the development of this project, I gained hands-on experience with:
 - Tailwind CSS: Applying utility-first CSS to style components and achieve a consistent design.
 - Responsive Design: Ensuring the website looks and functions well across different devices and screen sizes.
 
-## What makes your project stand out?
+## What makes my project stand out?
 
 While this project is a clone, the use of React, Tailwind CSS, and a focus on responsive design sets it apart. The clean and organized codebase, along with the attention to detail in replicating the Netflix UI, showcases not only the final product but also the development process and the skills acquired during the project.
 
