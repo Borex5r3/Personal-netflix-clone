@@ -7,7 +7,7 @@
 1. Clone the repository:
 
 ```
-git@github.com:Borex5r3/netflix-clone.git
+https://github.com/Borex5r3/netflix-clone.git
 ```
 
 2. Navigate to the project directory:
