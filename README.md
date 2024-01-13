@@ -2,9 +2,9 @@
 
 - Demo:
   
-  ```
-  https://netflix-clone-lemon-eight.vercel.app/
-  ```
+```
+https://borex-netflix-clone.vercel.app/  
+```
 
 ## Trust and Safety
 While visiting this site, you may encounter a "Deceptive site ahead" warning. This warning is due to the nature of the project, and you can safely proceed by acknowledging the risk. If you do not feel comfortable, please refrain from entering any personal information or passwords.
