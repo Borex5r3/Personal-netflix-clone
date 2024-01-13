@@ -313,22 +313,19 @@ export const signUpAndMailContent = {
   EmailInput: {
     English: {
       title:
-        // "Ready to watch? Enter your email to create or restart your membership.",
-        "this website is only for Learning Purpose it's not the Real netflix",
+        "Ready to watch? Enter your email to create or restart your membership.",
       email: "Email address",
       button: "get started",
     },
     French: {
       title:
-        // "Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre abonnement.",
-        "ce site Web est uniquement destiné à des fins d'apprentissage, ce n'est pas le vrai Netflix",
+        "Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre abonnement.",
         email: "Adresse e-mail",
       button: "Commencer",
     },
     Arab: {
       title:
-        // "هل أنت جاهزٌ للمشاهدة؟ أدخل بريدك الإلكتروني لإنشاء عضويتك أو إعادة تشغيلها.",
-        "هذا الموقع مخصص للأغراض التعليمية فقط، وهو ليس موقع  الحقيقي",
+        "هل أنت جاهزٌ للمشاهدة؟ أدخل بريدك الإلكتروني لإنشاء عضويتك أو إعادة تشغيلها.",
       email: "عنوان البريد الإلكتروني",
       button: "ابدأ",
     },

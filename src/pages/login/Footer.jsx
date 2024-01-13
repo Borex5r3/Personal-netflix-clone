@@ -40,9 +40,25 @@ export function Footer() {
           {/* <p className="capitalize">
          © made with ❤️ by <span className="text-blue-500">Borex</span>
         </p> */}
-          <div className="absolute capitalize py-4 text-start bottom-0 min-w-[200px]">
+          <div className="absolute capitalize py-0 sm:py-4 text-start bottom-0 min-w-[200px]">
             <p>
-              © made with ❤️ by <span className="text-blue-500">Borex</span>
+              © made with ❤️ by{" "}
+              <a
+                className="text-blue-500"
+                href="https://github.com/Borex5r3"
+                target="_blank"
+              >
+                Borex
+              </a>{" "}
+              (a devoted admirer of{" "}
+              <a
+                href="https://github.com/Hellio404"
+                target="_blank"
+                className="text-blue-500"
+              >
+                Hellio
+              </a>
+              )
             </p>
           </div>
         </div>
