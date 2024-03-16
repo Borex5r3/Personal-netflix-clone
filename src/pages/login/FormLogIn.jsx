@@ -48,7 +48,7 @@ const FormLogIn = () => {
                 languageIsArab ? "flex-row-reverse space-x-reverse" : ""
               }`}
             >
-              <input type="checkbox" id="checkbox" checked/>
+              <input type="checkbox" id="checkbox" defaultChecked/>
               <label htmlFor="checkbox" className="">
                 {checkBox[0]}
               </label>
